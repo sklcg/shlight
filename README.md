@@ -7,10 +7,10 @@ These are codes of the paper Learning Scene Illumination by Pairwise Photos from
   + Tensorflow >= 1.7.0
 
 ## Usage
-  1. Download the data, models and weights from [here](https://drive.google.com/drive/folders/16RH9lnAga4wdWQUuTUIjL8I7yoR-WWMe)(Some files need to be decompressed).
-  2. Place these files to the correct location.
+  1. Download codes, data, models and weights from [here](https://hx9o3dnrk0.feishu.cn/file/boxcn3CgBfp6pXMl5ZCuCqFiX5C).
+  2. Unzip the downloaded package. It contains all the files you need to run.
   3. cd to the path: src/, and run following commands.
-    
+
  #### Train
     python3 train.py {Network} {Method} {Fusion} {Weight} [GPU]
   we supply some pretrained models. If you want to use these pretrained models, download them and run predict.py or evaluate.py directly. If you want retrain these models, please modify the value of **model_root** in [common.py](./src/common.py) before training, otherwise the program will continue training from our pretrained models.
